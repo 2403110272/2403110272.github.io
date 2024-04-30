@@ -11,48 +11,55 @@
 
 <body>
     <header>
+        <div id="header"></div>
         <h1>박서현의 홈페이지</h1>
-        <nav>
+        </div>
+        <div id="nav">
             <ul>
                 <li><a href="#intro"> 내 소개 </a></li>
                 <li><a href="#study">SW 공부 </a></li>
                 <li><a href="#project"> 프로젝트 팀원 </a></li>
             </ul>
-        </nav>
+        </div>
     </header>
+
+    <nav>
+        <p>박서현의 홈페이지에 오신 것을 환영합니다
+            이 홈페이지는 인터페이스 디자인 실습 강의의 실습 예제로 만들었습니다.
+            오늘 처음으로 글자태그를 배우고 있는데, 열심히 배워서 멋진 홈페이지를 만들어 보겠습니다.
+        </p>
+        <p>글자 태그를 배우고 나서 빨리 목록 태그도 배워서 저에 대해서 목록으로 표현을 할 수 있으면 좋겠습니다.
+            오늘 강의에서 목록 태그를 배우고 나면, 제 홈페이지에 저에 대한 몇가지 사실을 목록 태그를
+            활용하여 알려드릴게요.
+        </p>
+    </nav>
    
 
     
 <main>
-    <div id = "intro" class="intro">
-    <img src="../images/BlackCAT_01.jpg" alt="검은 고양이" width="320">
-    <p>한국폴리텍 성남캠퍼스 인공지능소프트웨어과</p>
-    <p>전화번호 : 010-9071-2953</p>
-    <p>이메일 : 2403110272@office.kopo.ac.kr</p>
-    <fieldset class="field">
-        <p>
+    <div class="grid-container">
+        <div id = "intro" class="intro">
+            <div id="img">
+                <img src="../images/BlackCAT_01.jpg" alt="검은 고양이" width="320">
+            </div>   
+        <p>한국폴리텍 성남캠퍼스 인공지능소프트웨어과</p>
+        <p>전화번호 : 010-9071-2953</p>
+        <p>이메일 : 2403110272@office.kopo.ac.kr</p>
+     </div>
+     <div id = "field">
+         <fieldset class="field">
+           
             <a href="https://www.acmicpc.net/user/psh4310220" target="_blank" >· 나의 BOJ 현황</a><br>
-        </p>
-
-        <p>
+            </p>
+            <p>
             <a href="https://github.com/2403110272" target="_blank" >· 나의 GitHub 현황</a><br>
-        </p>
-    </fieldset>
-    </div>
-    <hr>
-    <div>
-    <p>박서현의 홈페이지에 오신 것을 환영합니다
-        이 홈페이지는 인터페이스 디자인 실습 강의의 실습 예제로 만들었습니다.
-        오늘 처음으로 글자태그를 배우고 있는데, 열심히 배워서 멋진 홈페이지를 만들어 보겠습니다.
-    </p>
-    <p>글자 태그를 배우고 나서 빨리 목록 태그도 배워서 저에 대해서 목록으로 표현을 할 수 있으면 좋겠습니다.
-        오늘 강의에서 목록 태그를 배우고 나면, 제 홈페이지에 저에 대한 몇가지 사실을 목록 태그를
-        활용하여 알려드릴게요.</p>
+            </p>
+        </fieldset>
     </div>
 
 
     <div id = "study">
-        <h1>지금 SW를 공부하고 있어요</h1>
+        <h2>지금 SW를 공부하고 있어요</h2>
         <table>
             <caption class="title">이번 학기에 배우는 과목</caption>
             <thread>
@@ -118,12 +125,11 @@
 
             </table>
 
-
     </div>
 
 
     <div id = "project">
-        <h1>나랑 같이 프로젝트를 하고 있는 팀원</h1>
+        <h2>프로젝트 팀원</h2>
         <p>
             <a href="https://github.com/redituser" target="_blank" >· 이국정</a> 
         </p>
@@ -137,6 +143,7 @@
             <a href="https://github.com/LswPolyAiSw" target="_blank" >· 이승우</a>
         </p>
     </div>
+</div>
 </main>
 </body>
 </html>
