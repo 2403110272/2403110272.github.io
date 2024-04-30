@@ -1,0 +1,96 @@
+h1 {
+    color:rgb(255, 255, 255);
+    background-color: rgb(44, 110, 49);
+    font-family: "Do Hyeon", sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Do Hyeon", sans-serif;
+}
+
+table{
+    margin:auto;
+    width:100%; 
+    border-collapse : collapse;
+    text-align: center;
+    font-family: "Orbit", sans-serif;
+    background-color: rgb(245, 238, 208);
+}
+
+
+th{
+    background-color: rgb(187, 209, 145);
+   font-size : 20px;
+   color: rgb(39, 70, 38);
+   padding: 10px;
+   border-bottom: 1px solid #314437;
+}
+
+tr, td{
+    padding: 10px;
+    border-bottom: 1px solid #466455;
+    color: rgb(39, 70, 38);
+}
+
+body{
+    background-color: rgba(245, 243, 220, 0.822);
+}
+
+nav{
+    font-family: "Orbit", sans-serif;
+    font-size: 15px;
+}
+
+p{
+    font-family: "Orbit", sans-serif;
+}
+
+.intro{
+    text-align: center;
+}
+
+header {
+    background: rgb(44, 110, 49);
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  a:link, a:visited {
+    background-color: rgb(44, 110, 49);
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Orbit", sans-serif;
+}
+a:hover, a:active {
+    background-color: #bbc0a3;
+}
+
+.field{
+    background-color: rgb(44, 110, 49);
+    text-align: center;
+}
