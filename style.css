@@ -5,19 +5,14 @@ h1 {
     letter-spacing: 3px;
 }
 
-h2 {
-    color:rgb(255, 255, 255);
-    background-color: rgb(187, 209, 145);
-    font-family: "Do Hyeon", sans-serif;
-    text-align: center;
-    letter-spacing: 3px;
+
+#study{
+    align-items: center;
+    justify-content: center;
 }
 
-
-#project{
-    color:rgb(255, 255, 255);
-    background-color: rgba(245, 243, 220, 0.822);
-    text-align: center;
+p{
+    color: rgb(255, 255, 255);
 }
 
 .title{
@@ -26,32 +21,9 @@ h2 {
     font-family: "Do Hyeon", sans-serif;
 }
 
-table{
-    margin:auto;
-    width:100%; 
-    border-collapse : collapse;
-    text-align: center;
-    font-family: "Orbit", sans-serif;
-    background-color: rgb(245, 238, 208);
-}
-
-
-th{
-    background-color: rgb(187, 209, 145);
-   font-size : 20px;
-   color: rgb(39, 70, 38);
-   padding: 10px;
-   border-bottom: 1px solid #314437;
-}
-
-tr, td{
-    padding: 10px;
-    border-bottom: 1px solid #466455;
-    color: rgb(39, 70, 38);
-}
 
 body{
-    background-color: rgba(245, 243, 220, 0.822);
+    background-color: rgb(42, 38, 44);
 }
 
 nav{
@@ -69,7 +41,7 @@ nav{
 }
 
 header {
-    background-color: rgb(44, 110, 49);
+    background-color: rgb(22, 22, 24);
     color: white;
     padding-left: 32px;
     padding-right: 32px;
@@ -93,7 +65,7 @@ header {
   }
 
   a:link, a:visited {
-    background-color: rgb(44, 110, 49);
+    background-color: rgb(22, 22, 24);
     color: rgb(255, 255, 255);
     padding: 15px 25px;
     text-align: center;
@@ -102,25 +74,34 @@ header {
     font-family: "Orbit", sans-serif;
 }
 a:hover, a:active {
-    background-color: #bbc0a3;
+    background-color: #2d2c31;
+    background-color: rgb(36, 36, 87);
 }
 
 .field{
-    background-color: rgb(44, 110, 49);
+    background-color: rgb(22, 22, 24);
     text-align: center;
 }
+
+
+
+
+
+
 
 @media screen and (min-width: 960px) {
 
 
     .grid-container {
         display: grid;
-        grid-template-rows: 50% auto;
-        grid-template-columns: 20% 60% auto;
+        grid-template-rows: 400px auto;
+        grid-template-columns: 320PX auto;
+        grid-gap: 80px;
         grid-template-areas:
-            "intro study team"
-            "field study team";
-        justify-items: stretch;
+            "intro study"
+            "field study";
+        justify-items: center;
+        align-items: center;
     }
 
 
@@ -130,6 +111,7 @@ a:hover, a:active {
 
     #intro {
         grid-area: intro;
+    
     }
 
     #study {
@@ -144,7 +126,7 @@ a:hover, a:active {
 @media screen and (min-width: 640px) and (max-width: 959px) {
 
     fieldset{
-        color: rgb(44, 110, 49);
+        color: rgb(22, 22, 24);
         justify-content: center;
         align-items: center;
     }
@@ -201,9 +183,7 @@ a:hover, a:active {
             "field"
             "team"
             "intro"
-            "study"
-            ;
-
+            "study";
     }
 
     #field {
