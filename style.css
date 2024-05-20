@@ -138,10 +138,10 @@ a:hover, a:active {
     }
     .grid-container {
         display: grid;
-        grid-template-rows: 30% 10% auto;
+        grid-template-rows: 30% 20% auto;
         grid-template-columns: 70% auto;
         grid-template-areas:
-            "intro team"
+            "intro intro"
             "field field"
             "study study";
 
@@ -178,10 +178,9 @@ a:hover, a:active {
 
     .grid-container {
         display: grid;
-        grid-template-rows: 10% 20% 40% auto;
+        grid-template-rows: 10% 20% auto;
         grid-template-areas:
             "field"
-            "team"
             "intro"
             "study";
     }
