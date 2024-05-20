@@ -178,7 +178,7 @@ a:hover, a:active {
 
     .grid-container {
         display: grid;
-        grid-template-rows: 10% 20% auto;
+        grid-template-rows: 20% 30% auto;
         grid-template-areas:
             "field"
             "intro"
